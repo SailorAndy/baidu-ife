@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #eee;
+    border: 1px solid #999;
+}
+
+.column {
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    padding-bottom: 0;
+    border: 1px solid #999;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.image-logo {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #999;
+    box-sizing: border-box;
+}
+
+#group-brife {
+    display: flex;
+    flex-direction: row;
+    float: left;
+    width: 200px;
+    min-width: 200px;
+}
+
+#group-content {
+    float: left;
+    flex: 1;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#person-logo {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 120px;
+    min-width: 120px;
+}
+
+p {
+    margin-top: 0;
+}
+
+.group-name {
+    font-size: 90%;
+}
